@@ -1,0 +1,13 @@
+<widget id="com.omar.rokya" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Omar Akami Roqya</name>
+    <description>Application de Roqya pour une lecture sans connexion</description>
+    <author email="votre.email@example.com" href="http://omarrokya.com">Omar Akami</author>
+
+    <content src="index.html" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="portrait" />
+
+    <platform name="android">
+    <icon src="resources/icons/android/icon.png" />
+</platform>
+</widget>
