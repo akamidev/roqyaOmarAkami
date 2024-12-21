@@ -1,96 +1,13 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الرُّقية الشرعية</title>
-    <style>
-        /* Styles de base */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #eef2f3;
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            margin: 20px auto;
-            padding: 30px;
-            max-width: 90%;
-            background: linear-gradient(135deg, #ffffff, #f8f9fa);
-            border-radius: 15px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-            text-align: center;
-        }
-        h1 {
-            color: #007bff;
-            font-size: 2rem;
-            margin-bottom: 20px;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        .ayat {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            line-height: 1.8;
-            color: #333;
-        }
-        button {
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            padding: 12px 25px;
-            font-size: 1rem;
-            cursor: pointer;
-            border-radius: 8px;
-            transition: background-color 0.3s ease;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-            box-shadow: none;
-        }
-        .end-message {
-            font-size: 1.2rem;
-            margin-top: 20px;
-            color: #28a745;
-            font-weight: bold;
-        }
+<widget id="com.omar.rokya" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Omar Akami Roqya</name>
+    <description>Application de Roqya pour une lecture sans connexion</description>
+    <author email="votre.email@example.com" href="http://omarrokya.com">Omar Akami</author>
 
-        /* Responsivité */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 1.8rem;
-            }
-            .ayat {
-                font-size: 1.2rem;
-            }
-            button {
-                font-size: 0.9rem;
-                padding: 10px 20px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>الرُّقية الشرعية</h1>
-        <p id="ayat" class="ayat">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
-        <button id="countButton" onclick="countAndNext()">تكرار: 7 مرات</button>
-        <button id="countButton" onclick="countAndNext()">reset</button>
-        <p id="endMessage" class="end-message" style="display: none;">
-            انتهت الرُقية ! بارك الله فيك.<br>
-            اشرب الماء بنية الشفاء العاجل. 🌿
-        </p>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+    <content src="index.html" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="portrait" />
+
+    <platform name="android">
+    <icon src="resources/icons/android/icon.png" />
+</platform>
+</widget>

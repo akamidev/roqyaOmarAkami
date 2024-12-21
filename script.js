@@ -10,6 +10,16 @@ const ayatList = [
     اهدنا الصراط المستقيم
     صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين.`,
     
+    // Sourate Al-Fatiha (1)
+    `سورة الفاتحة:
+    بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+    الحمد لله رب العالمين
+    الرحمن الرحيم
+    مالك يوم الدين
+    إياك نعبد وإياك نستعين
+    اهدنا الصراط المستقيم
+    صراط الذين أنعمت عليهم غير المغضوب عليهم ولا الضالين.`,
+    
     // Ayat Al-Kursi (Al-Baqara 255)
     `آية الكرسي (البقرة 255):
     اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ
@@ -99,3 +109,18 @@ function countAndNext() {
         }
     }
 }
+// Fonction de réinitialisation
+function resetRoqya() {
+    currentAyatIndex = 0; // Réinitialiser l'index de l'élément actuel
+    repeatCount = 7; // Réinitialiser le compteur
+    const button = document.getElementById("countButton");
+    const ayatText = document.getElementById("ayat");
+
+    // Mettre à jour l'interface utilisateur
+    ayatText.innerText = ayatList[currentAyatIndex];
+    button.innerText = `تكرار: ${repeatCount} مرات`;
+    button.disabled = false;
+}
+
+// Ajouter un gestionnaire d'événements pour le bouton "reset"
+document.getElementById("resetButton").addEventListener("click", resetRoqya);
