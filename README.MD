@@ -15,10 +15,17 @@
 
 ---
 
-### 🎥 **Vidéo Démonstration**
+## 🌟 **Démonstration du site**
 
-[![Video Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://youtu.be/dQw4w9WgXcQ)  
-*(Cliquez sur l'image pour voir la démonstration)*  
+Cliquez sur l'image ci-dessous pour visionner le projet :
+
+<a href="https://akamidev.github.io/roqyaOmarAkami/" target="_blank">
+    <img src="./photo.png" alt="Démonstration du Site" width="500">
+</a>
+
+Ou accédez directement via ce lien : 
+
+- [🔗 Voir la Démonstration](https://akamidev.github.io/SITEWEB_INTERACTIF/)
 
 ---
 
