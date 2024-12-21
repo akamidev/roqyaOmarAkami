@@ -11,7 +11,9 @@
 
 ### 🌟 **Description**
 
-**Roqya Omar Akami App** est une application Android interactive construite avec [Cordova](https://cordova.apache.org/). Cette application fournit une interface simple et intuitive pour accompagner les utilisateurs dans les pratiques liées à la Roqya.  
+**Roqya Omar Akami App est une application Android interactive construite avec Cordova, dédiée à la mémoire de mon Pére défunt. Que cette initiative serve de sadaqa jariya (aumône continue), priant qu'Allah lui accorde Sa miséricorde et Sa lumière dans l'au-delà.
+
+Cette application propose une interface simple et intuitive pour accompagner les utilisateurs dans les pratiques de la Roqya (méthodes spirituelles islamiques de guérison par le Coran et les invocations)..  
 
 ---
 
