@@ -25,7 +25,7 @@ Cliquez sur l'image ci-dessous pour visionner le projet :
 
 Ou accédez directement via ce lien : 
 
-- [🔗 Voir la Démonstration](https://akamidev.github.io/SITEWEB_INTERACTIF/)
+- [🔗 Voir la Démonstration](https://akamidev.github.io/roqyaOmarAkami/)
 
 ---
 
