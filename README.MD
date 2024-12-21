@@ -20,7 +20,7 @@
 Cliquez sur l'image ci-dessous pour visionner le projet :
 
 <a href="https://akamidev.github.io/roqyaOmarAkami/" target="_blank">
-    <img src="./photo.png" alt="Démonstration du Site" style="width: 500px; height: 250px;">
+    <img src="./photo.png" alt="Démonstration du Site" style="width: 250px;">
 </a>
 
 Ou accédez directement via ce lien : 
